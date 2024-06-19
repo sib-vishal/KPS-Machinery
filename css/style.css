@@ -1008,8 +1008,63 @@ fieldset {
 }
 .contact-page {
   .leftImg img {
-    border-top-right-radius:0px !important;
-    border-bottom-right-radius:0px !important;
+    border-top-right-radius: 0px !important;
+    border-bottom-right-radius: 0px !important;
     max-width: 100%;
+  }
+}
+/* dot list style */
+.dot_points {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  & span {
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    position: relative;
+    border: 2px dashed var(--secondary-color);
+    animation: rotate 2s ease-in-out infinite;
+
+    &:after {
+      content: "";
+      position: absolute;
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+      background: var(--primary-color);
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%);
+    }
+  }
+}
+
+.machinery {
+  .machinery_inner_left {
+    & h3 {
+      border-bottom: 2px solid #e9e5e5;
+    }
+    .machinery_inner_left_inner {
+      width: 95%;
+      & ul{
+        & li{
+          list-style: disc;
+          list-style-position: inside;
+          &:marker{
+            color: var(--secondary-color);
+          }
+        }
+      }
+     
+    }
+  }
+  .machinery_inner_right {
+    overflow: hidden;
+    & img {
+      width: 100%;
+      border-radius: 15px;
+    }
   }
 }

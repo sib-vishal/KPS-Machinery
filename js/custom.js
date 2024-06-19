@@ -363,3 +363,5 @@ $("li[data-slide]").click(function (e) {
   var slideno = $(this).data("slide");
   $(".slider-about").slick("slickGoTo", slideno - 1);
 });
+
+
