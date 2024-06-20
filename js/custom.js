@@ -364,4 +364,84 @@ $("li[data-slide]").click(function (e) {
   $(".slider-about").slick("slickGoTo", slideno - 1);
 });
 
+// cursor
 
+var cursor = document.querySelector(".cursor");
+var cursorinner = document.querySelector(".cursor2");
+var a = document.querySelectorAll("a");
+
+document.addEventListener("mousemove", function (e) {
+  var x = e.clientX;
+  var y = e.clientY;
+  cursor.style.transform = `translate3d(calc(${e.clientX}px - 50%), calc(${e.clientY}px - 50%), 0)`;
+});
+
+document.addEventListener("mousemove", function (e) {
+  var x = e.clientX;
+  var y = e.clientY;
+  cursorinner.style.left = x + "px";
+  cursorinner.style.top = y + "px";
+});
+
+document.addEventListener("mousedown", function () {
+  cursor.classList.add("click");
+  cursorinner.classList.add("cursorinnerhover");
+});
+
+document.addEventListener("mouseup", function () {
+  cursor.classList.remove("click");
+  cursorinner.classList.remove("cursorinnerhover");
+});
+
+a.forEach((item) => {
+  item.addEventListener("mouseover", () => {
+    cursor.classList.add("hover");
+  });
+  item.addEventListener("mouseleave", () => {
+    cursor.classList.remove("hover");
+  });
+});
+
+//  Video Control Based on Viewport
+document.addEventListener("DOMContentLoaded", function () {
+  const videos = document.querySelectorAll(".myVideo");
+
+  function isVideoNearTop(video) {
+    const videoRect = video.getBoundingClientRect();
+    return videoRect.top <= 300;
+  }
+
+  function farFromBottom(video) {
+    const videoRect = video.getBoundingClientRect();
+    return videoRect.bottom >= 300;
+  }
+
+  function handleVideoPlay(video) {
+    if (isVideoNearTop(video) && farFromBottom(video)) {
+      video.play();
+    } else {
+      video.pause();
+    }
+  }
+
+  window.addEventListener("scroll", function () {
+    videos.forEach((video) => {
+      handleVideoPlay(video);
+    });
+  });
+
+  videos.forEach((video) => {
+    handleVideoPlay(video);
+  });
+});
+
+// machinesVideo.forEach((item) => {
+//   item.addEventListener("mouseover", () => {
+//     cursor.classList.add("play-icon");
+//     cursorinner.classList.add("cursor2-remove")
+//   });
+//   item.addEventListener("mouseleave", () => {
+//     cursor.classList.remove("play-icon");
+//     cursorinner.classList.remove("cursor2-remove");
+//   });
+// });

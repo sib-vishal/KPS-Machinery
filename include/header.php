@@ -3,15 +3,29 @@
 		<div class="inlineHeader">
 			<div class="leftLogo">
 				<a href="index.php">
-					<h3 class="heading fontHeading fontWeight700"><span class="fontWeight800 text_primary">KPS</span> Machinery</h3>
+					<h3 class="heading fontHeading fontWeight700"><span class="fontWeight800 text_primary">KPS</span>
+						Machinery</h3>
 				</a>
 			</div>
 			<div class="mainMenu">
 				<ul>
 					<li><a href="index.php">Home</a></li>
 					<li><a href="about.php">About</a></li>
-					<li><a href="#">Products</a></li>
-					<li><a href="#">Services</a></li>
+					<li><a href="#">Products <i class="fa fa-chevron-down"></i></a>
+						<ul class="shadow">
+							<li><a href="core-cutting-machines.php">Core Cutting Machines</a></li>
+							<li><a href="winding-machines.php">Winding Machines</a></li>
+							<li><a href="stacking-tables.php">Stacking Tables</a></li>
+							<li><a href="stacking-systems.php">Stacking Systems</a></li>
+						</ul>
+					</li>
+
+					<li><a href="#">Services <i class="fa fa-chevron-down"></i></a>
+						<ul class="shadow">
+							<li><a href="machine-design.php">Machine Design</a></li>
+							<li><a href="retrofit.php">Retroft</a></li>
+						</ul>
+					</li>
 					<li><a href="contact-us.php">Contact Us</a></li>
 				</ul>
 			</div>
@@ -20,24 +34,24 @@
 	</div>
 </header>
 <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
-  <div class="offcanvas-header">
-    <h5 id="offcanvasRightLabel">&nbsp;</h5>
-    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-  </div>
-  <div class="offcanvas-body">
-    <div class="innerMenu">
-    	
+	<div class="offcanvas-header">
+		<h5 id="offcanvasRightLabel">&nbsp;</h5>
+		<button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
 	</div>
-	<div class="followUs">
-		<h3 class="text fontWeight500">Follow Us</h3>
-		<ul class="socialLink">
-			<li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-	        <li><a href="#"><i class="fab fa-x-twitter"></i></a></li>
-	        <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
-	        <li><a href="#"><i class="fab fa-instagram"></i></a></li>
-		</ul>
+	<div class="offcanvas-body">
+		<div class="innerMenu">
+
+		</div>
+		<div class="followUs">
+			<h3 class="text fontWeight500">Follow Us</h3>
+			<ul class="socialLink">
+				<li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+				<li><a href="#"><i class="fab fa-x-twitter"></i></a></li>
+				<li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+				<li><a href="#"><i class="fab fa-instagram"></i></a></li>
+			</ul>
+		</div>
 	</div>
-  </div>
 </div>
 
 <!-- popup -->
@@ -55,9 +69,13 @@
 				<fieldset> <input placeholder="Phone Number" type="tel" tabindex="3" required=""> </fieldset>
 				<fieldset> <textarea placeholder="Type your message here..." tabindex="5" required=""></textarea>
 				</fieldset>
-				<button name="submit" type="submit" id="contactus-submit" data-submit="...Sending"><i id="icon" class=""></i> Send Now</button>
+				<button name="submit" type="submit" id="contactus-submit" data-submit="...Sending"><i id="icon"
+						class=""></i> Send Now</button>
 			</form>
 		</div>
 	</div>
 
 </div>
+
+<div class="cursor"></div>
+<div class="cursor2"></div>
