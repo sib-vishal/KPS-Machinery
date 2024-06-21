@@ -32,7 +32,8 @@
                                 class=" large_heading text-uppercase fontHeading text-white letterSpacing-2 fontWeight700">
                                 <span>About</span> Us
                             </h1>
-                            <h2 class="small_heading text-white mt-4 fontWeight600">Home / <span>About Us</span></h2>
+                            <h2 class="title text-white mt-4 fontWeight600">Home <i
+                                    class="fa-solid fa-angles-right"></i> <span>About Us</span></h2>
 
                         </div>
 
@@ -67,7 +68,7 @@
             </div>
         </section>
         </section>
-        <section class="py-0 counter">
+        <section class="py-0 counter ">
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-lg-6 px-lg-0" data-aos="zoom-in-up">
@@ -99,8 +100,7 @@
                     </div>
                 </div>
             </div>
-        </section>
-        <!-- machinery sepecial -->
+        </section> <!-- machinery sepecial -->
         <section class="about_mannage" style="background:#f5f5f5">
             <div class="containerFull">
 
@@ -196,12 +196,16 @@
         </section>
 
 
+
+
         <section class="bgSecondary lineDivider">
             <div class="containerFull">
                 <div class="row align-items-center">
                     <div class="col-lg-5 text-lg-end" data-aos="zoom-in-up">
-                        <h4 class="heading text-white fontWeight700 fontHeading"><span class="text_primary">20+</span>
-                            Global<br /> Locations</h4>
+                        <h4 class="heading text-white fontWeight700 fontHeading"> <span
+                                class="text_primary">Transforming</span> Industries Worldwide</h4>
+                        <!-- <h4 class="heading text-white fontWeight700 fontHeading"><span class="text_primary">20+</span>
+                            Global<br /> Locations</h4> -->
                     </div>
                     <div class="col-lg-2 px-lg-5 text-center" data-aos="zoom-in-up">
                         <picture>
@@ -211,8 +215,8 @@
                     </div>
                     <div class="col-lg-5" data-aos="zoom-in-up">
                         <div class="rightAc">
-                            <p class="title text-white fontWeight500">Lorem ipsum dolor consectetur adipisicing elit,
-                                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                            <p class="text text-white fontWeight500">Your Trusted Machinery Services Provider Since
+                                1986"</p>
                             <a href="#" class="btnBanner mt-4"><i class="fa fa-map-marker-alt pe-lg-2"></i> Learn More
                                 About Our Location</a>
                         </div>
@@ -226,10 +230,10 @@
 
                                     <ul>
                                         <li class="active" data-tab="productivity" data-slide="1">
-                                            Productivity
+                                            Our Mission
                                         </li>
-                                        <li data-tab="reliability" data-slide="2"> Reliability</li>
-                                        <li data-tab="efficiency" data-slide="3"> Efficiency </li>
+                                        <li data-tab="reliability" data-slide="2"> Our Vission</li>
+                                        <li data-tab="efficiency" data-slide="3"> Our Values </li>
                                     </ul>
                                 </div>
                                 <div class="tabBlock">

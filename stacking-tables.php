@@ -20,9 +20,7 @@
     <div class="wrapper">
         <?php include 'include/header.php'; ?>
         <div class="herSection ">
-            <!-- <video autoplay loop muted playsinline>
-                <source src="images/banner/banner.mp4" type="video/mp4" />
-            </video> -->
+        
             <img class="banner-image" src="images/about/about-banner.jpg" alt="">
             <div class="banenrText">
                 <div class="containerFull">
@@ -32,7 +30,7 @@
                                 class=" large_heading text-uppercase fontHeading text-white letterSpacing-2 fontWeight700">
                                 <span>Stacking </span> Tables
                             </h1>
-                            <h2 class="small_heading text-white mt-4 fontWeight600">Home / <span>Stacking Tables
+                            <h2 class="title text-white mt-4 fontWeight600">Home <i class="fa-solid fa-angles-right"></i> <span>Stacking Tables
                                 </span></h2>
 
                         </div>
@@ -89,9 +87,11 @@
                             </h4> -->
                             <p class="mt-4">KPS Stacking tables are available in 1 ton and 3 ton variants.
 
-                             </p> <p>Tables are equipped with Hydraulic Lift and tilt, as well as 6 hydraulic locating pins.</p>  
-                            
-                            
+                            </p>
+                            <p>Tables are equipped with Hydraulic Lift and tilt, as well as 6 hydraulic locating pins.
+                            </p>
+
+
                             <div class="d-inline-block w-100 mt-4" style="">
                                 <a href="#" class="btnHeader" data-fancybox="" data-src="#dialog-content"><i
                                         class="fa-regular fa-envelope icon "></i> &nbsp; Let's
@@ -107,8 +107,7 @@
 
                             <video class="myVideo" loop="" muted="" playsinline=""
                                 poster="images/products/stacking-tables/kps-machinery-stacking-tables-00.jpg">
-                                <source src=""
-                                    type="video/mp4">
+                                <source src="" type="video/mp4">
                             </video>
                         </div>
 
@@ -127,34 +126,13 @@
         <section class="products-gallery stacking-tables-gallery" style="background:#f6f6f6">
             <div class="containerFull">
 
-                <p class="small_heading fontWeight600 fontHeading  mt-3 text_primary">KPS Machinery | Stacking Tables</p>
+                <p class="small_heading fontWeight600 fontHeading  mt-3 text_primary">KPS Machinery | Stacking Tables
+                </p>
                 <h4 class="text_secondary mt-2 pb-4 heading fontWeight700 fontHeading">
                     Videos & Galleries
                 </h4>
                 <div class="products-gallery-grid">
-                    <!-- <a href="images/products/winding-machines/winding-machines-video.mp4" rel="gallery"
-                        data-caption="Wire Winding Machine" data-fancybox="Gallery" class="grid-item shadow">
-                        <img class="object-fit-cover w-100"
-                            src="images/products/winding-machines/winding-machines-video-1.jpg"
-                            alt="winding-machines-video-1.jpg">
-
-                        <div class="item-content d-flex">
-                            <div>
-                                <h4 class="text_primary fontWeight600 text-uppercase">
-                                    Winding Machines
-                                </h4>
-                                <p class="mt-1 text_secondary">Play Video</p>
-                            </div>
-                            <div>
-                                <div class=" b icon">
-                                    <i class="fa-solid fa-arrow-up-long"></i>
-                                </div>
-                            </div>
-
-                        </div>
-
-
-                    </a> -->
+                    
 
                     <a href="images/products/stacking-tables/kps-machinery-stacking-tables-00.jpg" rel="gallery"
                         data-caption="Stacking Tables" data-fancybox="Gallery" class="grid-item shadow">
@@ -162,19 +140,17 @@
                             src="images/products/stacking-tables/kps-machinery-stacking-tables-00.jpg"
                             alt="kps-machinery-winding-machines-00.jpg">
 
-                        <div class="item-content d-flex">
-                            <div>
-                                <h4 class="text_primary fontWeight600 text-uppercase">
-                                Stacking Tables
-                                </h4>
-                                <p class="mt-1 text_secondary">View Gallery</p>
-                            </div>
-                            <div>
-                                <div class=" b icon">
-                                    <i class="fa-solid fa-arrow-up-long"></i>
+                        <div class="item-content ">
+                            <div class="w-100">
+                                <div class="icon_main">
+                                    <div class=" icon ">
+                                        <i class="fa-solid fa-images"></i>
+                                    </div>
                                 </div>
+                                <h4 class="text_primary text-center mt-3 fontWeight600 text-uppercase">
+                                    Stacking Tables
+                                </h4>
                             </div>
-
                         </div>
                         <div class="d-none">
                             <a data-caption="Stacking Tables" rel="gallery" data-fancybox="Gallery"

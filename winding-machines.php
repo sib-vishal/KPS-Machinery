@@ -32,7 +32,7 @@
                                 class=" large_heading text-uppercase fontHeading text-white letterSpacing-2 fontWeight700">
                                 <span>Winding</span> Machines
                             </h1>
-                            <h2 class="small_heading text-white mt-4 fontWeight600">Home / <span>Winding Machines
+                            <h2 class="title text-white mt-4 fontWeight600">Home <i class="fa-solid fa-angles-right"></i> <span>Winding Machines
                                 </span></h2>
 
                         </div>
@@ -140,7 +140,7 @@
                 <p class="small_heading fontWeight600 fontHeading  mt-3 text_primary">KPS Machinery | Wire winding
                     machines</p>
                 <h4 class="text_secondary mt-2 pb-4 heading fontWeight700 fontHeading">
-                    Videos & Galleries
+                    Videos & Photos
                 </h4>
                 <div class="products-gallery-grid">
                     <a href="images/products/winding-machines/winding-machines-video.mp4" rel="gallery"
@@ -149,19 +149,17 @@
                             src="images/products/winding-machines/winding-machines-video-1.jpg"
                             alt="winding-machines-video-1.jpg">
 
-                        <div class="item-content d-flex">
-                            <div>
-                                <h4 class="text_primary fontWeight600 text-uppercase">
-                                Winding Machines
-                                </h4>
-                                <p class="mt-1 text_secondary">Play Video</p>
-                            </div>
-                            <div>
-                                <div class=" b icon">
-                                    <i class="fa-solid fa-arrow-up-long"></i>
+                        <div class="item-content ">
+                            <div class="w-100">
+                                <div class="icon_main">
+                                    <div class=" icon ">
+                                        <i class="fa-solid fa-play"></i>
+                                    </div>
                                 </div>
+                                <h4 class="text_primary text-center mt-3 fontWeight600 text-uppercase">
+                                    Winding Machines
+                                </h4>
                             </div>
-
                         </div>
 
 
@@ -173,19 +171,17 @@
                             src="images/products/winding-machines/kps-machinery-winding-machines-00.jpg"
                             alt="kps-machinery-winding-machines-00.jpg">
 
-                        <div class="item-content d-flex">
-                            <div>
-                                <h4 class="text_primary fontWeight600 text-uppercase">
-                                Winding Machines
-                                </h4>
-                                <p class="mt-1 text_secondary">View Gallery</p>
-                            </div>
-                            <div>
-                                <div class=" b icon">
-                                    <i class="fa-solid fa-arrow-up-long"></i>
+                        <div class="item-content ">
+                            <div class="w-100">
+                                <div class="icon_main">
+                                    <div class=" icon ">
+                                        <i class="fa-solid fa-images"></i>
+                                    </div>
                                 </div>
+                                <h4 class="text_primary text-center mt-3 fontWeight600 text-uppercase">
+                                    Winding Machines
+                                </h4>
                             </div>
-
                         </div>
                         <div class="d-none">
                             <a data-caption="Wire Winding Machines" rel="gallery" data-fancybox="Gallery"

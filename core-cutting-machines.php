@@ -32,7 +32,7 @@
                                 class=" large_heading text-uppercase fontHeading text-white letterSpacing-2 fontWeight700">
                                 <span>Core Cutting</span> Machines
                             </h1>
-                            <h2 class="small_heading text-white mt-4 fontWeight600">Home / <span>Core Cutting Machines
+                            <h2 class="title text-white mt-4 fontWeight600">Home <i class="fa-solid fa-angles-right"></i> <span>Core Cutting Machines
                                 </span></h2>
 
                         </div>
@@ -83,7 +83,7 @@
                                 KPS CTL 250
                             </h3>
 
-                            <h4 class="dot_points small_heading text_primary mt-4 mb-3 fontWeight700 fontHeading">
+                            <h4 class="dot_points small_heading  mt-4 mb-3 fontWeight700 fontHeading">
                                 <span></span> Configuration
                             </h4>
                             <p>Swing-shear cutting line, with notch moving IN and OUT, fixed Punch, suitable for
@@ -92,12 +92,12 @@
                                 300 mm. Equipped with two in-line magnetic stackers, with easy-offloading by crane or
                                 trolley.</p>
 
-                            <h4 class="dot_points small_heading text_primary my-3 fontWeight700 fontHeading">
+                            <h4 class="dot_points small_heading  my-3 fontWeight700 fontHeading">
                                 <span class=""></span> Performance Specifications:
                             </h4>
                             <p>Up to 60 pieces per minute, depending on number of tools and configuration.</p>
 
-                            <h4 class="dot_points small_heading text_primary my-3 fontWeight700 fontHeading">
+                            <h4 class="dot_points small_heading  my-3 fontWeight700 fontHeading">
                                 <span></span>Features:
                             </h4>
                             <ul>
@@ -158,7 +158,7 @@
                                 KPS CTL 300
                             </h3>
 
-                            <h4 class="dot_points small_heading text_primary mt-4 mb-3 fontWeight700 fontHeading">
+                            <h4 class="dot_points small_heading  mt-4 mb-3 fontWeight700 fontHeading">
                                 <span></span> Configuration
                             </h4>
                             <p>Swing-shear cutting line, with notch moving IN and OUT, fixed Punch, suitable for
@@ -166,12 +166,12 @@
                                 to 300 mm. Equipped with two in-line magnetic stackers, with easy-offloading by crane or
                                 trolley.</p>
 
-                            <h4 class="dot_points small_heading text_primary my-3 fontWeight700 fontHeading">
+                            <h4 class="dot_points small_heading  my-3 fontWeight700 fontHeading">
                                 <span class=""></span> Performance Specifications:
                             </h4>
                             <p>Up to 60 pieces per minute, depending on number of tools and configuration.</p>
 
-                            <h4 class="dot_points small_heading text_primary my-3 fontWeight700 fontHeading">
+                            <h4 class="dot_points small_heading  my-3 fontWeight700 fontHeading">
                                 <span></span>Features:
                             </h4>
                             <ul>
@@ -212,7 +212,7 @@
                                 KPS CTL 600
                             </h3>
 
-                            <h4 class="dot_points small_heading text_primary mt-4 mb-3 fontWeight700 fontHeading">
+                            <h4 class="dot_points small_heading  mt-4 mb-3 fontWeight700 fontHeading">
                                 <span></span> Configuration
                             </h4>
                             <p>Swing-shear cutting line, with notch moving IN and OUT, fixed Punch, suitable for
@@ -220,12 +220,12 @@
                                 up to 600 mm. Equipped with two in-line magnetic stackers, optional bypass diverter, and
                                 offloading by crane or forklift..</p>
 
-                            <h4 class="dot_points small_heading text_primary my-3 fontWeight700 fontHeading">
+                            <h4 class="dot_points small_heading  my-3 fontWeight700 fontHeading">
                                 <span class=""></span> Performance Specifications:
                             </h4>
                             <p>Up to 60 pieces per minute, depending on number of tools and configuration.</p>
 
-                            <h4 class="dot_points small_heading text_primary my-3 fontWeight700 fontHeading">
+                            <h4 class="dot_points small_heading  my-3 fontWeight700 fontHeading">
                                 <span></span>Features:
                             </h4>
                             <ul>
@@ -283,22 +283,18 @@
                             src="images/products/kps-ctl-250/kps-machinery-core-cutting-machines-video-1.jpg"
                             alt="kps-machinery-core-cutting-machines-video-1.jpg">
 
-                        <div class="item-content d-flex">
-                            <div>
-                                <h4 class="text_primary fontWeight600 text-uppercase">
+                        <div class="item-content ">
+                            <div class="w-100">
+                                <div class="icon_main">
+                                    <div class=" icon ">
+                                        <i class="fa-solid fa-play"></i>
+                                    </div>
+                                </div>
+                                <h4 class="text_primary text-center mt-3 fontWeight600 text-uppercase">
                                     kps ctl 250
                                 </h4>
-                                <p class="mt-1 text_secondary">Play Video</p>
                             </div>
-                            <div>
-                                <div class=" b icon">
-                                    <i class="fa-solid fa-arrow-up-long"></i>
-                                </div>
-                            </div>
-
                         </div>
-
-
                     </a>
 
                     <a href="images/products/kps-ctl-300/core-cutting-machines-video-6.mp4" rel="gallery"
@@ -307,45 +303,40 @@
                             src="images/products/kps-ctl-300/kps-machinery-core-cutting-machines-video-6.jpg"
                             alt="kps-machinery-core-cutting-machines-video-6.jpg">
 
-                        <div class="item-content d-flex">
-                            <div>
-                                <h4 class="text_primary fontWeight600 text-uppercase">
+                            <div class="item-content ">
+                            <div class="w-100">
+                                <div class="icon_main">
+                                    <div class=" icon ">
+                                        <i class="fa-solid fa-play"></i>
+                                    </div>
+                                </div>
+                                <h4 class="text_primary text-center mt-3 fontWeight600 text-uppercase">
                                     kps ctl 300
                                 </h4>
-                                <p class="mt-1 text_secondary">Play Video</p>
                             </div>
-                            <div>
-                                <div class=" b icon">
-                                    <i class="fa-solid fa-arrow-up-long"></i>
-                                </div>
-                            </div>
-
                         </div>
 
 
                     </a>
 
                     <a href="images/products/kps-ctl-600/core-cutting-machines-video-7.mp4" rel="gallery"
-                       data-fancybox="Gallery" data-caption="KPS CTL 600"  class="grid-item shadow">
+                        data-fancybox="Gallery" data-caption="KPS CTL 600" class="grid-item shadow">
                         <img class="object-fit-cover w-100 h-100"
                             src="images/products/kps-ctl-600/kps-machinery-core-cutting-machines-video-7.jpg"
                             alt="kps-machinery-core-cutting-machines-video-7.jpg">
 
-                        <div class="item-content d-flex">
-                            <div>
-                                <h4 class="text_primary fontWeight600 text-uppercase">
+                            <div class="item-content ">
+                            <div class="w-100">
+                                <div class="icon_main">
+                                    <div class=" icon ">
+                                        <i class="fa-solid fa-play"></i>
+                                    </div>
+                                </div>
+                                <h4 class="text_primary text-center mt-3 fontWeight600 text-uppercase">
                                     kps ctl 600
                                 </h4>
-                                <p class="mt-1 text_secondary">Play Video</p>
                             </div>
-                            <div>
-                                <div class=" b icon">
-                                    <i class="fa-solid fa-arrow-up-long"></i>
-                                </div>
-                            </div>
-
                         </div>
-
 
                     </a>
 

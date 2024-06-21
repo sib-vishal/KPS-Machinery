@@ -1080,11 +1080,27 @@ fieldset {
     .machinery_inner_left_inner {
       width: 95%;
       & ul {
+        padding-left: 25px;
         & li {
-          list-style: disc;
+          /* border: 1px solid red; */
+          list-style: none;
           list-style-position: inside;
-          &:marker {
+          position: relative;
+          margin-top: 6px;
+
+          &::before {
+            
+            content: "\f101";
+            display: flex;
+         justify-content: center;
+            position: absolute;
+            top:0px;
+            left: -20px;         
+            width: 10px;
+            height: 10px;
             color: var(--secondary-color);
+            font-family: var(--fa-style-family, "Font Awesome 6 Free");
+            font-weight: var(--fa-style, 900);
           }
         }
       }
@@ -1145,12 +1161,13 @@ fieldset {
       border-radius: 13px;
       overflow: hidden;
       position: relative;
+      max-height: 300px;
 
       & img {
         height: 105%;
       }
 
-      &:hover {
+      /* &:hover {
         & .item-content {
           background-color: var(--secondary-color);
           & p {
@@ -1161,35 +1178,40 @@ fieldset {
             border: 2px solid #fff;
           }
         }
-      }
+      } */
       & .item-content {
         position: absolute;
         border-radius: 15px;
-        transform: translatex(-50%);
+        transform: translate(-50%, -50%);
+        top: 50%;
         left: 50%;
-        width: 90%;
-        bottom: 20px;
-        padding: 20px;
-        background-color: #ffffffc5;
-        backdrop-filter: blur(8px);
-        justify-content: space-between;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #0c3d8dbb;
         transition: all 0.3s ease-in-out;
 
         & p {
           transition: all 0.3s ease-in-out;
         }
-
+        & .icon_main {
+          max-width: fit-content;
+          margin: 0 auto;
+        }
         & .icon {
           width: 60px;
           height: 60px;
           border-radius: 100%;
           display: flex;
-          border: 2px solid var(--secondary-color);
-          color: var(--secondary-color);
+          border: 2px solid #fff;
+          color: #fff;
 
           & i {
             margin: auto;
-            rotate: 30deg;
+            font-size: 25px;
+            /* rotate: 30deg; */
           }
         }
       }
@@ -1218,9 +1240,47 @@ fieldset {
   .products-gallery-grid {
     .grid-item {
       grid-column: span 3 / span 3;
-      max-height: 400px;
+      max-height: 300px;
     }
   }
+}
+
+.retrofit {
+  max-height: 600px !important;
+}
+
+/* services page */
+
+.machine-design {
+  background: url(../images/services/machine-design/kps-machinery-machine-design-header.jpg)
+    no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  /* padding: 20px; */
+  position: relative;
+  z-index: 1;
+}
+.machine-design:before {
+  content: "";
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  /* backdrop-filter: blur(2px); */
+  /* background:#4c12aa79 ; */
+  background: #00000000;
+  z-index: -1;
+}
+
+/* contact-form */
+.location-map {
+  position: sticky;
+  top: 115px;
+  height: 500px;
+}
+.contact-form {
+  border-radius: 10px;
 }
 
 .our-clients-product {

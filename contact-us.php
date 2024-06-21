@@ -32,7 +32,7 @@
                                 class=" large_heading text-uppercase fontHeading text-white letterSpacing-2 fontWeight700">
                                 <span>Contact</span> Us
                             </h1>
-                            <h2 class="small_heading text-white mt-4 fontWeight600">Home / <span>Contact Us</span></h2>
+                            <h2 class="title text-white mt-4 fontWeight600">Home <i class="fa-solid fa-angles-right"></i> <span>Contact Us</span></h2>
 
                         </div>
 
@@ -74,7 +74,7 @@
         <section class="address-details">
             <div class="containerFull">
                 <div class="row">
-                    <div class="col-lg-6">
+                    <!-- <div class="col-lg-6">
                         <h3 class="heading fontHeading  text_primary Contact_address ">Address</h3>
                         <div class="box_item">
                             <a href="#">
@@ -107,13 +107,59 @@
                         </div>
 
 
+                    </div> -->
+
+                    <div class="col-lg-6 position-relative">
+                        <div class="location-map">
+
+                            <iframe class="w-100 h-100 "
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1515337.0276912963!2d-106.71202549374833!3d42.11512393983071!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54eab584e432360b%3A0x1c3bb99243deb742!2sUnited%20States!5e0!3m2!1sen!2sin!4v1718368482395!5m2!1sen!2sin"
+                                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                                referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
+
                     </div>
                     <div class="col-lg-6">
-                        <iframe class="w-100 h-100"
-                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1515337.0276912963!2d-106.71202549374833!3d42.11512393983071!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54eab584e432360b%3A0x1c3bb99243deb742!2sUnited%20States!5e0!3m2!1sen!2sin!4v1718368482395!5m2!1sen!2sin"
-                            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-                            referrerpolicy="no-referrer-when-downgrade"></iframe>
-
+                        <div class="bg-white p-5 rounded-5 contact-form">
+                            <h4 class="sub_heading fontWeight700 fontHeading">Have Any Question Contact Us</h4>
+                            <p class="mt-3">For Business inquiry fill our feedback form our team will help you with in
+                                24 hours.</p>
+                            <div class="formBlock">
+                                <div class="formItem">
+                                    <div class="form-floating mb-2">
+                                        <input type="hidden" name="hidden">
+                                        <input type="text" required="" class="form-control" id="name" name="name"
+                                            placeholder="name">
+                                        <label for="name">Your name</label>
+                                    </div>
+                                </div>
+                                <div class="formItem">
+                                    <div class="form-floating mb-2">
+                                        <input type="email" required="" class="form-control" id="email" name="email"
+                                            placeholder="email">
+                                        <label for="email">Email Address</label>
+                                    </div>
+                                </div>
+                                <div class="formItem">
+                                    <div class="form-floating mb-2">
+                                        <input type="tel" required="" class="form-control" id="phone" name="phone"
+                                            placeholder="phone">
+                                        <label for="phone">Phone</label>
+                                    </div>
+                                </div>
+                                <div class="formItem">
+                                    <div class="form-floating">
+                                        <textarea class="form-control textHeight" required="" name="message"
+                                            placeholder="Leave a comment here" id="floatingTextarea"
+                                            spellcheck="false"></textarea>
+                                        <label for="floatingTextarea">Write Message</label>
+                                    </div>
+                                </div>
+                                <div class="formItem mb-0">
+                                    <button class="btnTheme">Send Message</button>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
 
@@ -121,7 +167,7 @@
         </section>
 
         <!-- address end -->
-        <section class="bgBlue pt-0">
+        <!-- <section class="bgBlue pt-0">
             <div class="container-fluid contact-page">
                 <div class="row">
                     <div class="col-lg-6 ps-lg-0" data-aos="zoom-in-up">
@@ -176,9 +222,9 @@
                     </div>
                 </div>
             </div>
-        </section>
-    
-        <?php include 'include/our-clients.php'; ?>
+        </section> -->
+
+      
         <?php include 'include/footer.php'; ?>
     </div>
     <?php include 'include/footer-links.php'; ?>

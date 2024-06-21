@@ -3,7 +3,7 @@
 <html lang="en">
 
 <head>
-    <title>Stacking Systems| KPS Machinery</title>
+    <title>Machine Design | KPS Machinery</title>
     <?php include 'include/head-links.php'; ?>
     <meta property="og:url" content="<?php echo $page_url ?>">
     <meta property="og:title" content="">
@@ -30,9 +30,10 @@
                         <div class=" mx-auto text-center ">
                             <h1
                                 class=" large_heading text-uppercase fontHeading text-white letterSpacing-2 fontWeight700">
-                                <span>Stacking </span> Systems
+                                <span>Machine </span> Design
                             </h1>
-                            <h2 class="title text-white mt-4 fontWeight600">Home <i class="fa-solid fa-angles-right"></i> <span>Stacking Systems
+                            <h2 class="title text-white mt-4 fontWeight600">Home <i
+                                    class="fa-solid fa-angles-right"></i> <span> Machine Design
                                 </span></h2>
 
                         </div>
@@ -47,8 +48,8 @@
                     <div class="col-lg-4" data-aos="zoom-in-up">
                         <div class="leftBannerBottom">
                             <!-- <h3> KPS MACHINERY | PRODUCTS</h3> -->
-                            <h4 class="heading fontWeight700 fontHeading">Stacking Systems </h4>
-                            <p class="fontWeight600 fontHeading  mt-3 text_primary">KPS MACHINERY | PRODUCTS</p>
+                            <h4 class="heading fontWeight700 fontHeading">MACHINE DESIGN </h4>
+                            <p class="fontWeight600 fontHeading  mt-3 text_primary">KPS MACHINERY | SERVICES</p>
                             <!-- <p class="fontWeight600 fontHeading title mt-2 text_primary"></p> -->
                         </div>
 
@@ -71,37 +72,23 @@
             </div>
         </section>
         <!-- machinery sepecial -->
-        <section class="machinery ">
+        <section class="machinery machine-design ">
             <div class="containerFull">
                 <div class="row ">
                     <div class="col-lg-6 machinery_inner_left">
                         <div class="machinery_inner_left_inner">
-                            <p class="small_heading fontWeight600 fontHeading  mt-3 text_primary">
-                                KPS MACHINERY | PRODUCTS
+                            <p class="title fontWeight600 fontHeading  mt-3 text_primary">
+                                KPS Machinery Services
                             </p>
-                            <h3 class="text_secondary mt-2 pb-4 heading fontWeight700 fontHeading"> <span></span>
-                                Stacking Systems
+                            <h3 class="text-white mt-2 pb-4 heading fontWeight700 fontHeading"> <span></span>
+                                Machine Design
                             </h3>
 
 
-                            <!-- <h4 class="dot_points small_heading text_primary my-3 fontWeight700 fontHeading">
-                                <span></span>Features:
-                            </h4> -->
-                            <p class="mt-4">The very same stacking system that is a component of the KPS-CTL-300 and
-                                KPS-CTL-600 is available as a retrofit stacker to existing core cutting equipment.
-
+                            <p class="mt-4 text-white">
+                                At KPS we do other machine design for various special purpose machinery and application
+                                requirement.
                             </p>
-                            <p class="mt-2">KPS can design and supply a standalone system that integrates into existing
-                                equipment
-                                without any need to modify the controls of the existing core cutter. Stackers can be
-                                configured to stack with or without the use of pins, with accuracy within +/- 1 mm.
-                            </p>
-                            <p class="mt-2">Stackers can vary from simple 2 position variants, up to 5 positions with
-                                multiple cars
-                                and pallets. Contact us for a list of stacking systems that have been successfully
-                                integrated into existing core cutting equipment.</p>
-
-
                             <div class="d-inline-block w-100 mt-4" style="">
                                 <a href="#" class="btnHeader" data-fancybox="" data-src="#dialog-content"><i
                                         class="fa-regular fa-envelope icon "></i> &nbsp; Let's
@@ -112,16 +99,17 @@
 
                         </div>
                     </div>
-                    <div class="col-lg-6 machinery_inner_right ">
+                    <!-- <div class="col-lg-6 machinery_inner_right ">
                         <div class="machinery_inner_right_inner shadow rounded-2">
 
                             <video class="myVideo" loop="" muted="" playsinline=""
-                                poster="images/products/stacking-systems/kps-machinery-stacking-systems-06 (1).jpg">
-                                <source src="" type="video/mp4">
+                                poster="images/products/winding-machines/winding-machines-video-1.jpg">
+                                <source src="images/products/winding-machines/winding-machines-video.mp4"
+                                    type="video/mp4">
                             </video>
                         </div>
 
-                    </div>
+                    </div> -->
 
 
                 </div>
@@ -133,40 +121,19 @@
 
         <!-- products gallery -->
 
-        <section class="products-gallery " style="background:#f6f6f6">
+        <!-- <section class="products-gallery" style="background:#f6f6f6">
             <div class="containerFull">
 
-                <p class="small_heading fontWeight600 fontHeading  mt-3 text_primary">KPS Machinery | Stacking Systems
-                </p>
+                <p class="small_heading fontWeight600 fontHeading  mt-3 text_primary">KPS Machinery | Wire winding
+                    machines</p>
                 <h4 class="text_secondary mt-2 pb-4 heading fontWeight700 fontHeading">
-                    Videos & Galleries
+                    Videos & Photos
                 </h4>
                 <div class="products-gallery-grid">
-                    <a href="images/products/stacking-systems/stacking-systems-video-2.mp4" rel="gallery"
-                        data-caption="Stacking Systems" data-fancybox="Gallery" class="grid-item shadow">
+                    <a href="images/products/winding-machines/winding-machines-video.mp4" rel="gallery"
+                        data-caption="Wire Winding Machine" data-fancybox="Gallery" class="grid-item shadow">
                         <img class="object-fit-cover w-100"
-                            src="images/products/stacking-systems/kps-machinery-stacking-systems-video-1.jpg"
-                            alt="winding-machines-video-1.jpg">
-
-
-                        <div class="item-content ">
-                            <div class="w-100">
-                                <div class="icon_main">
-                                    <div class=" icon ">
-                                        <i class="fa-solid fa-play"></i>
-                                    </div>
-                                </div>
-                                <h4 class="text_primary text-center mt-3 fontWeight600 text-uppercase">
-                                    Stacking Systems
-                                </h4>
-                            </div>
-                        </div>
-
-                    </a>
-                    <a href="images/products/stacking-systems/stacking-systems-video-1.mp4" rel="gallery"
-                        data-caption="Stacking Systems" data-fancybox="Gallery" class="grid-item shadow">
-                        <img class="object-fit-cover w-100"
-                            src="images/products/stacking-systems/kps-machinery-stacking-systems-video-2.jpg"
+                            src="images/products/winding-machines/winding-machines-video-1.jpg"
                             alt="winding-machines-video-1.jpg">
 
                         <div class="item-content ">
@@ -177,7 +144,7 @@
                                     </div>
                                 </div>
                                 <h4 class="text_primary text-center mt-3 fontWeight600 text-uppercase">
-                                    Stacking Systems
+                                    Winding Machines
                                 </h4>
                             </div>
                         </div>
@@ -185,10 +152,10 @@
 
                     </a>
 
-                    <a href="images/products/stacking-systems/kps-machinery-stacking-systems-00.jpg" rel="gallery"
-                        data-caption="Stacking Systems" data-fancybox="Gallery" class="grid-item shadow">
+                    <a href="images/products/winding-machines/kps-machinery-winding-machines-00.jpg" rel="gallery"
+                        data-caption="Wire Winding Machines" data-fancybox="Gallery" class="grid-item shadow">
                         <img class="object-fit-cover w-100"
-                            src="images/products/stacking-systems/kps-machinery-stacking-systems-00.jpg"
+                            src="images/products/winding-machines/kps-machinery-winding-machines-00.jpg"
                             alt="kps-machinery-winding-machines-00.jpg">
 
                         <div class="item-content ">
@@ -199,21 +166,73 @@
                                     </div>
                                 </div>
                                 <h4 class="text_primary text-center mt-3 fontWeight600 text-uppercase">
-                                    Stacking Systems
+                                    Winding Machines
                                 </h4>
                             </div>
                         </div>
                         <div class="d-none">
-                            <a data-caption="Stacking Systems" rel="gallery" data-fancybox="Gallery"
-                                href="images/products/stacking-systems/kps-machinery-stacking-systems-02.jpg"></a>
-                            <a data-caption="Stacking Systems" rel="gallery" data-fancybox="Gallery"
-                                href="images/products/stacking-systems/kps-machinery-stacking-systems-03.jpg"></a>
-                            <a data-caption="Stacking Systems" rel="gallery" data-fancybox="Gallery"
-                                href="images/products/stacking-systems/kps-machinery-stacking-systems-04.jpg"></a>
-                            <a data-caption="Stacking Systems" rel="gallery" data-fancybox="Gallery"
-                                href="images/products/stacking-systems/kps-machinery-stacking-systems-05.jpg"></a>
-                            <a data-caption="Stacking Systems" rel="gallery" data-fancybox="Gallery"
-                                href="images/products/stacking-systems/kps-machinery-stacking-systems-06.jpg"></a>
+                            <a data-caption="Wire Winding Machines" rel="gallery" data-fancybox="Gallery"
+                                href="images/products/winding-machines/kps-machinery-winding-machines-02.jpg"></a>
+                            <a data-caption="Wire Winding Machines" rel="gallery" data-fancybox="Gallery"
+                                href="images/products/winding-machines/kps-machinery-winding-machines-03.jpg"></a>
+                            <a data-caption="Wire Winding Machines" rel="gallery" data-fancybox="Gallery"
+                                href="images/products/winding-machines/kps-machinery-winding-machines-04.jpg"></a>
+                            <a data-caption="Wire Winding Machines" rel="gallery" data-fancybox="Gallery"
+                                href="images/products/winding-machines/kps-machinery-winding-machines-05.jpg"></a>
+
+                        </div>
+
+
+                    </a>
+
+
+
+                </div>
+            </div>
+        </section> -->
+
+        <!-- products gallery -->
+
+        <section class="products-gallery stacking-tables-gallery" style="background:#f6f6f6">
+            <div class="containerFull">
+
+                <h4 class="text_secondary mt-2  heading fontWeight700 fontHeading">
+                    Gallery
+                </h4>
+                <p class="text fontWeight600 fontHeading mt-2 pb-4  text_primary">
+                KPS MACHINERY | MACHINE DESIGN
+                </p>
+                <div class="products-gallery-grid">
+
+
+                    <a href="images/services/machine-design/kps-machinery-machine-design-00.jpg" rel="gallery"
+                        data-caption="MACHINE DESIGN" data-fancybox="Gallery" class="grid-item shadow">
+                        <img class="object-fit-cover w-100"
+                            src="images/services/machine-design/kps-machinery-machine-design-00.jpg"
+                            alt="kps-machinery-winding-machines-00.jpg">
+
+                        <div class="item-content ">
+                            <div class="w-100">
+                                <div class="icon_main">
+                                    <div class=" icon ">
+                                        <i class="fa-solid fa-images"></i>
+                                    </div>
+                                </div>
+                                <h4 class="text_primary text-center mt-3 fontWeight600 text-uppercase">
+                                MACHINE DESIGN
+                                </h4>
+                            </div>
+                        </div>
+                        <div class="d-none">
+                            <a data-caption="MACHINE DESIGN" rel="gallery" data-fancybox="Gallery"
+                                href="images/products/stacking-tables/kps-machinery-stacking-tables-00.jpg"></a>
+                            <a data-caption="MACHINE DESIGN" rel="gallery" data-fancybox="Gallery"
+                                href="images/products/stacking-tables/kps-machinery-stacking-tables-00.jpg"></a>
+                            <a data-caption="MACHINE DESIGN" rel="gallery" data-fancybox="Gallery"
+                                href="images/products/stacking-tables/kps-machinery-stacking-tables-00.jpg"></a>
+                            <a data-caption="MACHINE DESIGN" rel="gallery" data-fancybox="Gallery"
+                                href="images/products/stacking-tables/kps-machinery-stacking-tables-00.jpg"></a>
+
                         </div>
 
 
@@ -224,6 +243,7 @@
                 </div>
             </div>
         </section>
+
         <div class="our-clients-product">
 
             <?php include 'include/our-clients.php'; ?>
